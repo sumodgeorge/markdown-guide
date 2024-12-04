@@ -10,7 +10,7 @@ end
 
 group :test do
   gem 'rake'
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 3.19.3'
 end
 
 gem "webrick", "~> 1.7"
